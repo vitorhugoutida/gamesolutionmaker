@@ -2,14 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
 
 html {
     scroll-behavior: smooth;
+
+    background-color: #E2E7EB;
+
 }
 
 header {
     background-color: #D7D7D9;
+
 }
 
 .container-grid {
@@ -41,12 +47,19 @@ header {
 
     margin-top: 40px;
     margin-bottom: 40px;
+
 }
 
-.banner {
-    background-color: #E2E7EB;
+.banner-logo img {
+    margin-left: -400px;
 }
 
-.conteudo-banner {
-    margin-top: 290px;
+
+.banner-logo {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: -100px;
+    margin-top: -168px;
+
 }
