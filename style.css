@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 
+header {
+    background-color: #D7D7D9;
+}
+
 .container-grid {
     width: 80vw;
     max-width: 1400px;
@@ -17,8 +21,32 @@ html {
 }
 
 .menu {
-    width: 1200px;
+    width: 1400px;
+    height: 100px;
+
 
     display: flex;
+    justify-content: center;
     justify-content: space-between;
+
+}
+
+.menu a {
+    color: black;
+
+    font-size: 20px;
+    font-family: Readex Pro;
+
+    text-decoration: none;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.banner {
+    background-color: #E2E7EB;
+}
+
+.conteudo-banner {
+    margin-top: 290px;
 }
