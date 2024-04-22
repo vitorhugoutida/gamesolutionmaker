@@ -3,6 +3,19 @@
     src: url(fonts/Readex_Pro/ReadexPro-VariableFont_HEXP\,wght.ttf);
     }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+:root {
+    --azul-transparente: #47749450;
+    --azul: #477494;
+    --cor-para-header: #D7D7D9;
+    --cor-para-body: #E2E7EB;
+    --tamanho-de-card-width: 1088px;
+    --tamanho-de-card-height: 556px;
+}
 
 * {
     margin: 0;
@@ -15,7 +28,7 @@
 html {
     scroll-behavior: smooth;
 
-    background-color: #E2E7EB;
+    background-color: var(--cor-para-body);
 
 }
 
@@ -26,20 +39,22 @@ body {
 }
 
 header {
-    background-color: #D7D7D9;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    background-color: var(--cor-para-header);
 
 }
 
 .container-grid {
-    width: 80vw;
-    max-width: 1400px;
+    max-width: 1720px;
 
     margin: 0 auto;
     
 }
 
 .menu {
-    width: 1400px;
+    width: px;
     height: 100px;
 
 
@@ -66,22 +81,27 @@ header {
     margin-top: 200px;
 }
 
-.card-quem-somos {
-    background-color: rgb(0, 0, 255);
+#sobre {
+    margin-top: 600px;
+}
 
-    width: 1088px;
-    height: 556px;
+.card-quem-somos {
+    margin-left: 632px;
+
+    background-color: var(--azul-transparente);
+
+    width: var(--tamanho-de-card-width);
+    height: var(--tamanho-de-card-height);
 
     border-radius: 30px;
 
     padding-top: 42px;
     padding-left: 325px;
     padding-right: 300px;
-
-
+    
 }
 
-#sobre h2 {
+.card-quem-somos h2 {
     display: flex;
     justify-content: center;
 
@@ -90,7 +110,7 @@ header {
 
 }
 
-#sobre p {
+.card-quem-somos p {
     display: flex;
     justify-content: center;
 
@@ -100,10 +120,171 @@ header {
     margin-top: 88px;
 
     text-align: center;
+
 }
 
-#sobre img {
+.card-quem-somos img {
     margin-left: -325px;
     margin-right: -284px;
-    margin-top: -340px;
+    margin-top: -375px;
+
 }
+
+.card-o-que-é {
+    margin-top: 560px;
+
+    background-color: var(--azul-transparente);
+
+    width: var(--tamanho-de-card-width);
+    height: var(--tamanho-de-card-height);
+
+    border-radius: 30px;
+
+    padding-top: 24px;
+
+}
+
+.card-o-que-é h2 {
+    display: flex;
+    justify-content: center;
+
+    font-size: 36px;
+    font-family: "ReadexPro";
+
+}
+
+.grupo-p-o-que-é p {
+    font-size: 25px;
+    font-family: "Roboto";
+
+}
+
+.Criamos-desafios-com-regras img {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.Criamos-desafios-com-regras {
+    display: flex;
+    align-items: center;
+
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+.Enviamos-notificações img {
+    margin-left: 20px;
+    margin-right: 24px;
+
+    scale: 90%;
+}
+
+.Enviamos-notificações {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 18px;
+}
+
+.Criamos-uma-galeria {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 10px;
+
+    stroke-width: 10px;
+}
+
+.Criamos-uma-galeria img {
+    margin-left: 26px;
+    margin-right: 24px;
+}
+
+.O-participante-pode {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+.O-participante-pode img {
+    margin-left: 16px;
+    margin-right: 24px;
+}
+
+.Estimulamos-a-competição {
+    display: flex;
+    align-items: center;
+}
+
+.Estimulamos-a-competição img {
+    margin-left: 19px;
+    margin-right: 24px;
+}
+
+.card-benefícios {
+    margin-top: 525px;
+    margin-left: 632px;
+
+    background-color: var(--azul-transparente);
+    border-radius: 30px;
+    width: var(--tamanho-de-card-width);
+    height: var(--tamanho-de-card-height);
+
+    padding-top: 24px;
+}
+
+.card-benefícios h2 {
+    display: flex;
+    justify-content: center;
+
+    font-size: 36px;
+    font-family: 'ReadexPro';
+
+    
+}
+
+.primeiro-ul {
+    margin-top: 24px;
+}
+
+.primeiro-ul {
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+
+.card-benefícios li {
+    font-size: 25px;
+    font-family: 'Roboto';
+
+    margin-bottom: 5px;
+    
+}
+
+.cases-h2 {
+    width: 1090px;
+    margin-left: 100px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-sucesso-microsoft {
+
+    margin-left: 100px;
+    background-color: var(--azul-transparente);
+
+    border-radius: 30px;
+
+    width: var(--tamanho-de-card-width);
+    height: var(--tamanho-de-card-height);
+}
+
+.card-sucesso-microsoft img {
+    width: var(--tamanho-de-card-width);
+    height: var(--tamanho-de-card-height);
+}
+
