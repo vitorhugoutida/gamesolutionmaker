@@ -126,6 +126,7 @@ header {
 .card-quem-somos img {
     margin-left: -325px;
     margin-right: -284px;
+<<<<<<< HEAD
     margin-top: -375px;
 
 }
@@ -288,3 +289,9 @@ header {
     height: var(--tamanho-de-card-height);
 }
 
+=======
+    margin-top: -340px;
+}
+
+.........
+>>>>>>> 2f58d1ba5d66ef3e43c55f3b18330ef1fc79b7ad
