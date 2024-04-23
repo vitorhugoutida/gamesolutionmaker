@@ -447,18 +447,21 @@ header {
 }
 
 .grupo-de-cases-card {
-    width: var(--tamanho-de-card-width);
-    height: var(--tamanho-de-card-height);
+    width: 1134px;
+    height: 638px;
     background-color: var(--azul-transparente);
     border-radius: 30px;
 }
 
-  .carousel {
-    width: 800px;
-    height: 300px;
-  }
+.carousel-grupo {
+    width: 1134px;
+    height: 638px;
 
-.carousel div {
-    display: flex;
-    justify-content: space-between;
-}
+    background-color: var(--azul);
+
+    border-radius: 30px;
+
+    margin-left: 760px;
+
+    margin-top: 480px;
+  }
