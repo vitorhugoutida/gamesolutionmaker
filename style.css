@@ -13,6 +13,7 @@
     --azul: #477494;
     --cor-para-header: #D7D7D9;
     --cor-para-body: #E2E7EB;
+    --cor-para-botao-sabia-mais: #961E1E;
     --tamanho-de-card-width: 1088px;
     --tamanho-de-card-height: 556px;
 }
@@ -36,6 +37,8 @@ body {
     background-image: url(img/bannerplanofundotudo.svg);
 
     background-repeat: no-repeat;
+
+
 }
 
 header {
@@ -126,7 +129,6 @@ header {
 .card-quem-somos img {
     margin-left: -325px;
     margin-right: -284px;
-<<<<<<< HEAD
     margin-top: -375px;
 
 }
@@ -263,19 +265,24 @@ header {
     
 }
 
-.cases-h2 {
+.card-sucesso-microsoft-h2 {
+    margin-top: 480px;
+
     width: 1090px;
-    margin-left: 100px;
-    height: 30px;
+    
+    height: 80px;
 
     display: flex;
     justify-content: center;
+    margin-bottom: 24px;
+
+    font-size: 36px;
+    font-family: 'ReadexPro';
 
 }
 
 .card-sucesso-microsoft {
 
-    margin-left: 100px;
     background-color: var(--azul-transparente);
 
     border-radius: 30px;
@@ -285,13 +292,99 @@ header {
 }
 
 .card-sucesso-microsoft img {
+    width: 1088px;
+    height: 556px;
+
+    margin-top: -125px;
+}
+
+.card-sucesso-microsoft p {
+    font-size: 25px;
+    font-family: 'Roboto';
+
+    margin-top: -115px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.card-sucesso-microsoft button {
+    background-color: var(--cor-para-botao-sabia-mais);
+    
+    width: 165px;
+    height: 51px;
+
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    border: none;
+
+    font-size: 25px;
+    font-family: 'Roboto';
+
+    margin-left: 923px;
+    margin-top: 35px;
+}
+
+.card-sucesso-dominos-pizza-h2 {
+    margin-top: 440px;
+
+    margin-left: 960px;
+
+    margin-bottom: 24px;
+
+    font-size: 36px;
+    font-family: 'ReadexPro';
+
+}
+
+.card-sucesso-dominos-pizza {
+
+    margin-left: 632px;
+    
+    background-color: var(--azul-transparente);
+
+    border-radius: 30px;
+
     width: var(--tamanho-de-card-width);
     height: var(--tamanho-de-card-height);
+
+
 }
 
-=======
-    margin-top: -340px;
+.card-sucesso-dominos-pizza img {
+    width: 1088px;
+    height: 556px;
+
+    margin-top: -125px;
+
+
 }
 
-.........
->>>>>>> 2f58d1ba5d66ef3e43c55f3b18330ef1fc79b7ad
+.card-sucesso-dominos-pizza p {
+    font-size: 25px;
+    font-family: 'Roboto';
+
+    margin-top: -120px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.card-sucesso-dominos-pizza button {
+    background-color: var(--cor-para-botao-sabia-mais);
+
+    width: 165px;
+    height: 51px;
+
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    border: none;
+
+    font-size: 25px;
+    font-family: 'Roboto';
+
+    margin-left: 923px;
+    margin-top: -50px;
+
+}
