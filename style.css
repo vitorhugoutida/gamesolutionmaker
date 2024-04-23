@@ -346,7 +346,7 @@ header {
     border-radius: 30px;
 
     width: var(--tamanho-de-card-width);
-    height: var(--tamanho-de-card-height);
+    height: 557px;
 
 
 }
@@ -385,6 +385,80 @@ header {
     font-family: 'Roboto';
 
     margin-left: 923px;
-    margin-top: -50px;
+    margin-top: -100px;
 
+}
+
+.card-sucesso-blue-wolf-h2 {
+    margin-top: 480px;
+
+    width: 1090px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+
+    font-size: 36px;
+    font-family: 'ReadexPro';
+}
+
+.card-sucesso-blue-wolf {
+    background-color: var(--azul-transparente);
+
+    border-radius: 30px;
+
+    width: var(--tamanho-de-card-width);
+    height: var(--tamanho-de-card-height);
+}
+
+.card-sucesso-blue-wolf img {
+    width: 1088px;
+    height: 556px;
+
+    margin-top: -125px;
+}
+
+.card-sucesso-blue-wolf p {
+    font-size: 25px;
+    font-family: 'Roboto';
+
+    margin-top: -90px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.card-sucesso-blue-wolf button {
+    background-color: var(--cor-para-botao-sabia-mais);
+    
+    width: 165px;
+    height: 51px;
+
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    border: none;
+
+    font-size: 25px;
+    font-family: 'Roboto';
+
+    margin-left: 923px;
+    margin-top: 9px;
+}
+
+.grupo-de-cases-card {
+    width: var(--tamanho-de-card-width);
+    height: var(--tamanho-de-card-height);
+    background-color: var(--azul-transparente);
+    border-radius: 30px;
+}
+
+  .carousel {
+    width: 800px;
+    height: 300px;
+  }
+
+.carousel div {
+    display: flex;
+    justify-content: space-between;
 }
