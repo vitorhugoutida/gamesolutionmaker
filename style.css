@@ -465,3 +465,62 @@ header {
 
     margin-top: 480px;
   }
+
+.contatos-p {
+    width: 1000px;
+    height: 1150px;
+
+    margin-top: 330px;
+}
+
+.contatos-p p {
+    font-size: 36px;
+    font-family: 'Roboto';
+
+}
+
+.form-card {
+    background-color: var(--azul);
+
+    background-image: url(img/banner-img-para-contatos.svg);
+
+    background-repeat: none;
+
+    background-position: center;
+
+    border-radius: 30px;
+
+    width: 1000px;
+    height: 1100px;
+
+    margin-top: -950px;
+
+}
+.form-card img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-repeat: none
+    ;
+}
+
+.form-card {
+    padding: 50px;
+}
+
+.campo, .campo-textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo label {
+    font-size: 36px;
+    font-family: 'Roboto';
+}
+
+.campo-textarea label {
+    font-size: 36px;
+    font-family: 'Roboto';
+}
