@@ -322,7 +322,7 @@ header {
     font-family: 'Roboto';
 
     margin-left: 923px;
-    margin-top: 35px;
+    margin-top: 32px;
 }
 
 .card-sucesso-dominos-pizza-h2 {
@@ -355,7 +355,7 @@ header {
     width: 1088px;
     height: 556px;
 
-    margin-top: -125px;
+    margin-top: -130px;
 
 
 }
@@ -364,7 +364,7 @@ header {
     font-size: 25px;
     font-family: 'Roboto';
 
-    margin-top: -120px;
+    margin-top: -125px;
     margin-left: 24px;
     margin-right: 24px;
 
@@ -385,7 +385,7 @@ header {
     font-family: 'Roboto';
 
     margin-left: 923px;
-    margin-top: -100px;
+    margin-top: -13px;
 
 }
 
@@ -443,7 +443,7 @@ header {
     font-family: 'Roboto';
 
     margin-left: 923px;
-    margin-top: 9px;
+    margin-top: 7px;
 }
 
 .grupo-de-cases-card {
@@ -506,21 +506,121 @@ header {
 }
 
 .form-card {
-    padding: 50px;
+    padding-top: 80px;
+    padding-left: 107px;
+    padding-right: 107px;
 }
 
 .campo, .campo-textarea {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    margin-bottom: 24px;
 }
 
-.campo label {
-    font-size: 36px;
+.campo label, .campo-textarea label {
+    font-size: 25px;
     font-family: 'Roboto';
+
+    margin-bottom: 24px;
+
+    color: white;
+
+
 }
 
-.campo-textarea label {
+.campo input {
+    width: 787px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 25px;
+    font-family: 'Roboto';
+
+    border-radius: 30px;
+
+    border-color: #58585953;
+    border-width: 4px;
+
+    padding-left: 48px;
+
+    outline: none;
+
+
+}
+
+.campo input:focus, .campo-textarea textarea:focus {
+    border-color: #71B8EB;
+    border-width: 4px;
+}
+
+.campo-textarea textarea {
+    width: 787px;
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 25px;
+    font-family: 'Roboto';
+
+    border-radius: 30px;
+
+    border-color: #58585953;
+    border-width: 4px;
+
+    padding-left: 48px;
+    padding-top: 25px;
+
+    outline: none;
+
+    resize: none;
+
+}
+
+.form-card button {
+    width: 400px;
+    height: 100px;
+
+    background-color: #71B8EB;
+
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     font-size: 36px;
     font-family: 'Roboto';
+
+    margin-left: 193px;
+    margin-top: 30px;
+
+    border: none;
+}
+
+.footer-button-text {
+
+    background-color: rgb(81, 47, 47);
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 1333px;
+
+    margin-top: -100px;
+
+}
+
+.footer-button-text a {
+    margin-top: 30px;
+
+    font-size: 25px;
+    font-family: 'Roboto';
+
+    color: white;
+
+    text-decoration: none;
 }
