@@ -13,7 +13,7 @@
     --azul: #477494;
     --cor-para-header: #D7D7D9;
     --cor-para-body: #E2E7EB;
-    --cor-para-botao-sabia-mais: #961E1E;
+    --cor-para-botao-sabia-mais: #961E1E90;
     --tamanho-de-card-width: 1088px;
     --tamanho-de-card-height: 556px;
 }
@@ -552,10 +552,22 @@ header {
 
 
 }
+/* Estilização para remover os spin buttons (setinhas) dos input[type='number'] */
+input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 .campo input:focus, .campo-textarea textarea:focus {
-    border-color: #71B8EB;
+    outline: solid 4px #71B8EB;
     border-width: 4px;
+    border: none;
 }
 
 .campo-textarea textarea {
@@ -604,14 +616,14 @@ header {
     cursor: pointer;
 
 
-    text-transform: uppercase;
+
 
     transition: background-color 500ms ease;
 
 }
 
 .form-card button:hover {
-    background-color: #365870;
+    background-color: #294358;
 }
 
 .footer-button-text {
@@ -626,9 +638,9 @@ header {
 }
 
 .footer-button-text a {
-    margin-top: 30px;
+    margin-top: 50px;
 
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Roboto';
 
     color: white;
@@ -640,9 +652,46 @@ header {
     margin-left: 1000px;
     margin-top: 50px;
 
+    display: flex;
+    align-items: center;
+
     
 }
 
-.icones-redes svg {
-    margin: 15px;
+.icones-redes a {
+
+    display: flex;
+    align-items: normal;
+
+
+}
+
+/* Acho q vai ficar .icones-redes a:hover */
+
+.icones-redes a:hover {
+    fill: #71B8EB;
+}
+
+.logo-e-informações {
+    margin-top: -200px;
+}
+
+
+.informações-footer p {
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: white;
+
+    text-decoration: none;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.info-email-footer img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
