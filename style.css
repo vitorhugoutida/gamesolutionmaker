@@ -550,6 +550,7 @@ header {
     outline: none;
 
 
+
 }
 
 .campo input:focus, .campo-textarea textarea:focus {
@@ -599,11 +600,21 @@ header {
     margin-top: 30px;
 
     border: none;
+
+    cursor: pointer;
+
+
+    text-transform: uppercase;
+
+    transition: background-color 500ms ease;
+
+}
+
+.form-card button:hover {
+    background-color: #365870;
 }
 
 .footer-button-text {
-
-    background-color: rgb(81, 47, 47);
 
     display: flex;
     flex-direction: column;
@@ -623,4 +634,15 @@ header {
     color: white;
 
     text-decoration: none;
+}
+
+.icones-redes {
+    margin-left: 1000px;
+    margin-top: 50px;
+
+    
+}
+
+.icones-redes svg {
+    margin: 15px;
 }
