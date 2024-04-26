@@ -453,15 +453,18 @@ header {
     border-radius: 30px;
 }
 
+/*  width: 1134px;
+    height: 638px */
+
 .carousel-grupo {
-    width: 1134px;
-    height: 638px;
+    width: var(--tamanho-de-card-width);
+    height: var(--tamanho-de-card-height);
 
     background-color: var(--azul);
 
     border-radius: 30px;
 
-    margin-left: 760px;
+    margin-left: 632px;
 
     margin-top: 480px;
   }
@@ -638,7 +641,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .footer-button-text a {
-    margin-top: 50px;
+    margin-top: 60px;
 
     font-size: 30px;
     font-family: 'Roboto';
@@ -650,21 +653,19 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .icones-redes {
     margin-left: 1000px;
-    margin-top: 50px;
+    margin-top: 80px;
 
     display: flex;
     align-items: center;
+    
 
     
 }
 
 .icones-redes a {
-
-    display: flex;
-    align-items: normal;
-
-
+    margin-left: 20px;
 }
+
 
 /* Acho q vai ficar .icones-redes a:hover */
 
@@ -676,6 +677,41 @@ input[type="number"]::-webkit-inner-spin-button {
     margin-top: -200px;
 }
 
+.info-email-footer {
+    height: 80px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.info-telefone-footer {
+    height: 80px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.info-local-footer {
+    height: 80px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo-footer {
+    margin-bottom: 30px;
+}
+
+.informações-footer img {
+    align-items: center;
+}
+
 
 .informações-footer p {
     font-size: 30px;
@@ -684,14 +720,95 @@ input[type="number"]::-webkit-inner-spin-button {
 
     text-decoration: none;
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
+    margin-left: 30px;
 }
 
-.info-email-footer img {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.info-local-footer {
+    margin-bottom: -30px;
+
+    margin-left: 6px;
+
+    height: 100px;
 }
+
+@media screen and (max-width: 1740px) {
+    .card-quem-somos {
+        scale: 90%;
+    }
+    
+    .card-o-que-é {
+        scale: 90%;
+    }
+
+    .card-benefícios {
+        scale: 90%;
+    }
+
+    .card-sucesso-microsoft {
+        scale: 90%;
+    }
+
+    .card-sucesso-dominos-pizza {
+        scale: 90%;
+    }
+
+    .card-sucesso-blue-wolf {
+        scale: 90%;
+    }
+
+    .carousel-grupo {
+        scale: 90%;
+    }
+
+    .form-card {
+        scale: 90%;
+    }
+
+    .contatos-p p {
+        font-size: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+
+    .body {
+        background-size: 80%;
+    }
+    .card-quem-somos {
+        margin-right: 0px;
+    }
+
+    .card-quem-somos {
+        scale: 80%;
+    }
+    
+    .card-o-que-é {
+        scale: 80%;
+    }
+
+    .card-benefícios {
+        scale: 80%;
+    }
+
+    .card-sucesso-microsoft {
+        scale: 80%;
+    }
+
+    .card-sucesso-dominos-pizza {
+        scale: 80%;
+    }
+
+    .card-sucesso-blue-wolf {
+        scale: 80%;
+    }
+
+    .carousel-grupo {
+        scale: 80%;
+    }
+
+    .form-card {
+        scale: 80%;
+    }
+}
+
