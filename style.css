@@ -657,6 +657,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     
 
     
@@ -731,84 +732,248 @@ input[type="number"]::-webkit-inner-spin-button {
     height: 100px;
 }
 
-@media screen and (max-width: 1740px) {
+@media screen and (max-width: 1920px) {
+    body {
+        background-size: 100%;
+    } 
+}
+
+@media screen and (max-width:)
+
+/* @media screen and (max-width: 1740px) {
+    
+
     .card-quem-somos {
         scale: 90%;
+        margin-top: -180px;
     }
     
     .card-o-que-é {
         scale: 90%;
+        margin-top: 450px;
     }
 
     .card-benefícios {
         scale: 90%;
+        margin-top: 450px;
+    }
+
+    .card-sucesso-microsoft-h2 h2 {
+        margin-top: -100px;
     }
 
     .card-sucesso-microsoft {
         scale: 90%;
+        margin-top: -130px;
+    }
+
+    .card-sucesso-dominos-pizza-h2 h2 {
+        margin-top: -80px;
     }
 
     .card-sucesso-dominos-pizza {
         scale: 90%;
+        margin-top: -0px;
+    }
+
+    .card-sucesso-blue-wolf-h2 {
+        margin-top: 380px;
     }
 
     .card-sucesso-blue-wolf {
         scale: 90%;
+        margin-top: px;
     }
 
     .carousel-grupo {
         scale: 90%;
+        margin-top: 410px;
     }
 
     .form-card {
-        scale: 90%;
+        scale: 85%;
+        margin-top: -1000px;
+        
     }
 
-    .contatos-p p {
+    .contatos-p {
         font-size: 30px;
-        margin-left: 50px;
+        margin-left: 70px;
+    
+    }
+
+    .icones-redes {
+        scale: 80%;
+    }
+    
+    .logo-e-informações {
+        scale: 80%;
+        margin-top: -400px;
+        margin-left: -40px;
     }
 }
 
-@media screen and (max-width: 1700px) {
+/*@media screen and (max-width: 1700px) {
 
     .body {
-        background-size: 80%;
+        background-size: 85%;
     }
+
     .card-quem-somos {
         margin-right: 0px;
     }
 
     .card-quem-somos {
-        scale: 80%;
+        scale: 85%;
     }
     
     .card-o-que-é {
+        scale: 85%;
+    }
+
+    .card-benefícios {
+        scale: 85%;
+    }
+
+    .card-sucesso-microsoft {
+        scale: 85%;
+    }
+
+    .card-sucesso-dominos-pizza {
+        scale: 85%;
+    }
+
+    .card-sucesso-blue-wolf {
+        scale: 85%;
+    }
+
+    .carousel-grupo {
+        scale: 85%;
+    }
+
+    .form-card {
+        scale: 85%;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .card-quem-somos {
+        margin-left: 550px;
+    }
+
+    .card-benefícios {
+        margin-left: 550px;
+    }
+
+    .card-sucesso-dominos-pizza {
+        margin-left: 550px;
+    }
+
+    .carousel-grupo {
+        margin-left: 550px;
+    }
+
+    .button-e-redes {
+        margin-left: 100px;
+        scale: 80%;
+    }
+
+    .logo-e-informações {
+        scale: 90%;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    .card-quem-somos {
+        margin-left: 500px;
         scale: 80%;
     }
 
     .card-benefícios {
-        scale: 80%;
-    }
-
-    .card-sucesso-microsoft {
+        margin-left: 500px;
         scale: 80%;
     }
 
     .card-sucesso-dominos-pizza {
-        scale: 80%;
-    }
-
-    .card-sucesso-blue-wolf {
+        margin-left: 500px;
         scale: 80%;
     }
 
     .carousel-grupo {
+        margin-left: 500px;
         scale: 80%;
     }
 
-    .form-card {
+    .button-e-redes {
+        margin-left: 20px;
         scale: 80%;
     }
 }
 
+@media screen and (max-width: 1500px) {
+    .card-quem-somos {
+        margin-left: 500px;
+        scale: 70%;
+    }
+
+    .card-benefícios {
+        margin-left: 500px;
+        scale: 70%;
+    }
+
+    .card-sucesso-dominos-pizza {
+        margin-left: 500px;
+        scale: 70%;
+    }
+
+    .carousel-grupo {
+        margin-left: 500px;
+        scale: 70%;
+    }
+
+    .button-e-redes {
+        margin-left: 20px;
+        scale: 70%;
+    }
+
+    .card-sucesso-dominos-pizza-h2 h2 {
+        
+        margin-left: -100px;
+
+    } 
+
+    .form-card {
+        margin-top: -1050px;
+    }
+
+    .contatos-p {
+        margin-top: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+    body {
+        background-size: 100%;
+    }
+    .card-quem-somos {
+        margin-left: 450px;
+        scale: 70%;
+    }
+
+    .card-benefícios {
+        margin-left: 450px;
+        scale: 70%;
+    }
+
+    .card-sucesso-dominos-pizza {
+        margin-left: 450px;
+        scale: 70%;
+    }
+
+    .carousel-grupo {
+        margin-left: 450px;
+        scale: 70%;
+    }
+}
