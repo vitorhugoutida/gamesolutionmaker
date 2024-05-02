@@ -1631,10 +1631,11 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-microsoft-h2 {
         margin-top: -100px;
+        width: 300px;
     }
 
     .card-sucesso-microsoft-h2 h2 {
-        margin-left: -85px;
+        margin-left: 115px;
         scale: 50%;
     }
     
@@ -1686,7 +1687,8 @@ input[type="number"]::-webkit-inner-spin-button {
     .contatos-p {
         scale: 50%;
         margin-top: -453px;
-        margin-left: -225px;
+        margin-left: -50px;
+        width: 300px;
     }
 
     .form-card {
@@ -1724,6 +1726,208 @@ input[type="number"]::-webkit-inner-spin-button {
         scale: 80%;
         margin-top: -100px;
     }
+}
+
+@media screen and (max-width: 375px) {
+    .banner-logo img {
+        margin-top: -226px;
+        margin-left: 244px;
+    }
+
+    .card-quem-somos {
+        scale: 32%;
+        margin-top: -830px;
+        margin-left: -355px;
+    }
+
+    .card-o-que-é {
+        scale: 32%;
+        margin-top: -337px;
+        margin-left: -355px;
+    }
+
+    .card-benefícios {
+        scale: 32%;
+        margin-top: -340px;
+        margin-left: -355px;
+    }
+
+    .card-sucesso-microsoft-h2 {
+        margin-top: -130px;
+
+    }
+
+    .card-sucesso-microsoft-h2 h2 {
+        margin-left: 60px;
+    }
+
+    .card-sucesso-microsoft {
+        scale: 32%;
+        margin-top: -318px;
+        margin-left: -355px;
+    }
+
+    .card-sucesso-dominos-pizza-h2 {
+        margin-top: -190px;
+    }
+
+    .card-sucesso-dominos-pizza-h2 h2 {
+        margin-left: -975px;
+
+    }
+
+    .card-sucesso-dominos-pizza {
+        scale: 32%;
+        margin-top: -215px;
+        margin-left: -355px;
+    }
+
+    .card-sucesso-blue-wolf-h2 {
+        margin-top: -212px;
+
+    }
+
+    .card-sucesso-blue-wolf-h2 h2 {
+        margin-left: 124px;
+        width: 200px;
+
+    }
+
+    .card-sucesso-blue-wolf {
+        scale: 32%;
+        margin-top: -240px;
+        margin-left: -355px;
+    }
+
+    .carousel-grupo {
+        scale: 32%;
+        margin-top: -340px;
+        margin-left: -355px;
+    }
+
+    .contatos-p {
+        margin-top: -475px;
+    }
+
+    .form-card {
+        margin-left: -323px;
+        margin-top: -1210px;
+        scale: 25%;
+    }
+
+    .button-e-redes {
+        margin-top: -800px;
+        margin-left: -262px;
+    }
+
+
+
+}
+
+@media screen and (max-width:320px) {
+    .banner-logo img {
+        scale: 80%;
+        margin-top: -264px;
+        margin-left: 102px;
+    }
+
+    .card-quem-somos {
+        scale: 28%;
+        margin-top: -845px;
+        margin-left: -384px;
+    
+    }
+
+    .card-o-que-é {
+        scale: 28%;
+        margin-top: -370px;
+        margin-left: -384px;
+    }
+
+    .card-benefícios {
+        scale: 28%;
+        margin-top: -375px;
+        margin-left: -384px;
+    }
+
+    .card-sucesso-microsoft-h2 {
+        margin-top: -140px;
+
+    }
+
+    .card-sucesso-microsoft-h2 h2 {
+        margin-left: 12px;
+    }
+
+    .card-sucesso-microsoft {
+        scale: 28%;
+        margin-top: -332px;
+        margin-left: -384px;
+    }
+
+    .card-sucesso-dominos-pizza-h2 {
+        margin-top: -210px;
+    }
+
+    .card-sucesso-dominos-pizza-h2 h2 {
+        margin-left: -990px;
+
+    }
+
+    .card-sucesso-dominos-pizza {
+        scale: 28%;
+        margin-top: -230px;
+        margin-left: -384px;
+    }
+
+    .card-sucesso-blue-wolf-h2 {
+        margin-top: -223px;
+    }
+
+    .card-sucesso-blue-wolf-h2 h2 {
+        margin-left: 80px;
+    }
+
+    .card-sucesso-blue-wolf {
+        scale: 28%;
+        margin-top: -250px;
+        margin-left: -384px;
+    }
+
+    .carousel-grupo {
+        scale: 28%;
+        margin-top: -390px;
+        margin-left: -384px;
+    }
+
+    .contatos-p {
+        scale: 45%;
+        margin-top: -515px;
+        margin-left: -70px;
+    }
+
+    .form-card {
+        scale: 22%;
+        margin-top: -1205px;
+        margin-left: -340px;
+    }
+
+    .button-e-redes {
+        margin-top: -838px;
+        margin-left: -280px;
+    }
+
+    .icones-redes {
+        scale: 50%;
+        margin-left: 1000px;
+    }
+
+    .logo-e-informações {
+
+        margin-left: -190px;
+
+    }
+     
 }
 /*@media screen and (max-width: 1700px) {
 
