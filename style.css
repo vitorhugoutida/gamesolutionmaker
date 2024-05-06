@@ -1,21 +1,30 @@
 @font-face {
     font-family: 'ReadexPro';
     src: url(fonts/Readex_Pro/ReadexPro-VariableFont_HEXP\,wght.ttf);
+
     }
 
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-Regular.ttf);
+
 }
 
 :root {
     --azul-transparente: #47749450;
+
     --azul: #477494;
+
     --cor-para-header: #D7D7D9;
+
     --cor-para-body: #E2E7EB;
+
     --cor-para-botao-sabia-mais: #961E1E90;
+
     --tamanho-de-card-width: 1088px;
+
     --tamanho-de-card-height: 556px;
+
 }
 
 * {
@@ -37,7 +46,6 @@ body {
     background-image: url(img/bannerplanofundotudo.svg);
 
     background-repeat: no-repeat;
-
 
 }
 
@@ -81,10 +89,12 @@ header {
 
 .banner-logo img {
     margin-top: 200px;
+
 }
 
 #sobre {
     margin-top: 580px;
+    
 }
 
 .card-quem-somos {
@@ -164,6 +174,7 @@ header {
 .Criamos-desafios-com-regras img {
     margin-left: 24px;
     margin-right: 24px;
+
 }
 
 .Criamos-desafios-com-regras {
@@ -172,6 +183,7 @@ header {
 
     margin-top: 24px;
     margin-bottom: 18px;
+
 }
 
 .Enviamos-notificações img {
@@ -179,6 +191,7 @@ header {
     margin-right: 24px;
 
     scale: 90%;
+
 }
 
 .Enviamos-notificações {
@@ -186,6 +199,7 @@ header {
     align-items: center;
 
     margin-bottom: 18px;
+
 }
 
 .Criamos-uma-galeria {
@@ -195,11 +209,13 @@ header {
     margin-bottom: 10px;
 
     stroke-width: 10px;
+
 }
 
 .Criamos-uma-galeria img {
     margin-left: 26px;
     margin-right: 24px;
+
 }
 
 .O-participante-pode {
@@ -207,21 +223,25 @@ header {
     align-items: center;
 
     margin-bottom: 8px;
+
 }
 
 .O-participante-pode img {
     margin-left: 16px;
     margin-right: 24px;
+
 }
 
 .Estimulamos-a-competição {
     display: flex;
     align-items: center;
+
 }
 
 .Estimulamos-a-competição img {
     margin-left: 19px;
     margin-right: 24px;
+    
 }
 
 .card-benefícios {
@@ -234,6 +254,7 @@ header {
     height: var(--tamanho-de-card-height);
 
     padding-top: 24px;
+
 }
 
 .card-benefícios h2 {
@@ -243,16 +264,17 @@ header {
     font-size: 36px;
     font-family: 'ReadexPro';
 
-    
 }
 
 .primeiro-ul {
     margin-top: 24px;
+
 }
 
 .primeiro-ul {
     margin-left: 300px;
     margin-bottom: 20px;
+
 }
 
 
@@ -288,6 +310,7 @@ header {
 
     width: var(--tamanho-de-card-width);
     height: var(--tamanho-de-card-height);
+
 }
 
 .card-sucesso-microsoft img {
@@ -295,6 +318,7 @@ header {
     height: 556px;
 
     margin-top: -125px;
+
 }
 
 .card-sucesso-microsoft p {
@@ -304,6 +328,7 @@ header {
     margin-top: -115px;
     margin-left: 24px;
     margin-right: 24px;
+
 }
 
 .card-sucesso-microsoft button {
@@ -322,6 +347,7 @@ header {
 
     margin-left: 923px;
     margin-top: 32px;
+
 }
 
 .card-sucesso-dominos-pizza-h2 {
@@ -347,7 +373,6 @@ header {
     width: var(--tamanho-de-card-width);
     height: 557px;
 
-
 }
 
 .card-sucesso-dominos-pizza img {
@@ -355,7 +380,6 @@ header {
     height: 556px;
 
     margin-top: -130px;
-
 
 }
 
@@ -400,6 +424,7 @@ header {
 
     font-size: 36px;
     font-family: 'ReadexPro';
+
 }
 
 .card-sucesso-blue-wolf {
@@ -409,6 +434,7 @@ header {
 
     width: var(--tamanho-de-card-width);
     height: var(--tamanho-de-card-height);
+
 }
 
 .card-sucesso-blue-wolf img {
@@ -416,6 +442,7 @@ header {
     height: 556px;
 
     margin-top: -125px;
+
 }
 
 .card-sucesso-blue-wolf p {
@@ -425,6 +452,7 @@ header {
     margin-top: -90px;
     margin-left: 24px;
     margin-right: 24px;
+
 }
 
 .card-sucesso-blue-wolf button {
@@ -443,6 +471,7 @@ header {
 
     margin-left: 923px;
     margin-top: 7px;
+
 }
 
 .grupo-de-cases-card {
@@ -450,6 +479,7 @@ header {
     height: 638px;
     background-color: var(--azul-transparente);
     border-radius: 30px;
+
 }
 
 /*  width: 1134px;
@@ -466,6 +496,7 @@ header {
     margin-left: 632px;
 
     margin-top: 520px;
+
   }
 
 .contatos-p {
@@ -473,6 +504,7 @@ header {
     height: 1150px;
 
     margin-top: 400px;
+
 }
 
 .contatos-p p {
@@ -505,14 +537,15 @@ header {
     justify-content: center;
     align-items: center;
 
-    background-repeat: none
-    ;
+    background-repeat: none;
+
 }
 
 .form-card {
     padding-top: 80px;
     padding-left: 107px;
     padding-right: 107px;
+
 }
 
 .campo, .campo-textarea {
@@ -521,6 +554,7 @@ header {
     justify-content: space-between;
 
     margin-bottom: 24px;
+
 }
 
 .campo label, .campo-textarea label {
@@ -530,7 +564,6 @@ header {
     margin-bottom: 24px;
 
     color: white;
-
 
 }
 
@@ -553,25 +586,27 @@ header {
 
     outline: none;
 
-
-
 }
 /* Estilização para remover os spin buttons (setinhas) dos input[type='number'] */
 input[type="number"] {
     appearance: textfield;
     -moz-appearance: textfield;
+
 }
 
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
+
     -webkit-appearance: none;
     margin: 0;
+
 }
 
 .campo input:focus, .campo-textarea textarea:focus {
     outline: solid 4px #71B8EB;
     border-width: 4px;
     border: none;
+
 }
 
 .campo-textarea textarea {
@@ -619,15 +654,13 @@ input[type="number"]::-webkit-inner-spin-button {
 
     cursor: pointer;
 
-
-
-
     transition: background-color 500ms ease;
 
 }
 
 .form-card button:hover {
     background-color: #294358;
+
 }
 
 .footer-button-text {
@@ -650,6 +683,7 @@ input[type="number"]::-webkit-inner-spin-button {
     color: white;
 
     text-decoration: none;
+
 }
 
 .icones-redes {
@@ -660,12 +694,11 @@ input[type="number"]::-webkit-inner-spin-button {
     align-items: center;
     justify-content: flex-end;
     
-
-    
 }
 
 .icones-redes a {
     margin-left: 20px;
+
 }
 
 
@@ -673,10 +706,12 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .icones-redes a:hover {
     fill: #71B8EB;
+
 }
 
 .logo-e-informações {
     margin-top: -200px;
+
 }
 
 .info-email-footer {
@@ -686,6 +721,7 @@ input[type="number"]::-webkit-inner-spin-button {
     display: flex;
     justify-content: start;
     align-items: center;
+
 }
 
 .info-telefone-footer {
@@ -695,6 +731,7 @@ input[type="number"]::-webkit-inner-spin-button {
     display: flex;
     justify-content: start;
     align-items: center;
+
 }
 
 .info-local-footer {
@@ -704,14 +741,17 @@ input[type="number"]::-webkit-inner-spin-button {
     display: flex;
     justify-content: start;
     align-items: center;
+
 }
 
 .logo-footer {
     margin-bottom: 30px;
+
 }
 
 .informações-footer img {
     align-items: center;
+
 }
 
 
@@ -723,6 +763,7 @@ input[type="number"]::-webkit-inner-spin-button {
     text-decoration: none;
 
     margin-left: 30px;
+
 }
 
 .info-local-footer {
@@ -731,12 +772,15 @@ input[type="number"]::-webkit-inner-spin-button {
     margin-left: 6px;
 
     height: 100px;
+
 }
 
 @media screen and (max-width: 1920px) {
     body {
         background-size: 100%;
+
     } 
+
 }
 
 @media screen and (max-width: 1740px) {
@@ -745,53 +789,64 @@ input[type="number"]::-webkit-inner-spin-button {
     .card-quem-somos {
         scale: 90%;
         margin-top: -180px;
+
     }
     
     .card-o-que-é {
         scale: 90%;
         margin-top: 450px;
+
     }
 
     .card-benefícios {
         scale: 90%;
         margin-top: 450px;
+
     }
 
     .card-sucesso-microsoft-h2 h2 {
         margin-top: -100px;
+
     }
 
     .card-sucesso-microsoft {
         scale: 90%;
         margin-top: -130px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 h2 {
         margin-top: -80px;
+
     }
 
     .card-sucesso-dominos-pizza {
         scale: 90%;
         margin-top: -0px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
         margin-top: 380px;
+
     }
 
     .card-sucesso-blue-wolf {
         scale: 90%;
         margin-top: px;
+
     }
 
     .carousel-grupo {
         scale: 90%;
         margin-top: 410px;
+        
     }
 
     .form-card {
         scale: 85%;
         margin-top: -1000px;
+
         
     }
 
@@ -803,61 +858,75 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .icones-redes {
         scale: 80%;
+
     }
     
     .logo-e-informações {
         scale: 80%;
         margin-top: -400px;
         margin-left: -40px;
+
     }
+
 }
 
 @media screen and (max-width: 1680px) {
     .card-quem-somos {
         margin-top: -200px;
+
     }
 
     .card-o-que-é {
         margin-top: 420px;
         margin-left: -35px;
+
     }
 
     .card-benefícios {
         margin-top: 415px;
+
     }
 
     .card-sucesso-microsoft {
         margin-left: -35px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 {
         margin-top: 420px;
+
     }
 
     .card-sucesso-dominos-pizza {
         margin-top: -10px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
         margin-top: 330px;
+
     }
 
     .card-sucesso-blue-wolf {
         margin-top: -10px;
+
     }
 
     .form-card {
         scale: 70%;
         margin-top: -1100px;
+
     }
 
     .button-e-redes {
         margin-left: -200px;
         margin-top: -200px;
+
     }
 
     .logo-e-informações {
         margin-top: -300px;
+
     }
     
 }
@@ -867,18 +936,21 @@ input[type="number"]::-webkit-inner-spin-button {
         margin-top: -270px;
         margin-left: 530px;
         scale: 85%;
+
     }
 
     .card-o-que-é {
         margin-top: 367px;
         margin-left: 1px;
         scale: 85%;
+
     }
 
     .card-benefícios {
         margin-top: 370px;
         margin-left: 530px;
         scale: 85%;
+
     }
 
     .card-sucesso-microsoft-h2 {
@@ -900,12 +972,14 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-dominos-pizza-h2 h2 {
         margin-left: -100px;
+
     }
 
     .card-sucesso-dominos-pizza {
         margin-top: -20px;
         margin-left: 530px;
         scale: 85%;
+
     }
     
     .card-sucesso-blue-wolf-h2 {
@@ -916,36 +990,43 @@ input[type="number"]::-webkit-inner-spin-button {
     .card-sucesso-blue-wolf {
         margin-left: 1px;
         scale: 85%;
+
     }
     
     .carousel-grupo {
         margin-top: 350px;
         margin-left: 530px;
         scale: 85%;
+
     }
+
 }
 
 @media screen and (max-width: 1440px) {
     .banner-logo {
         margin-top: -100px;
+
     }
 
     .card-quem-somos {
         scale: 80%;
         margin-top: -310px;
         margin-left: 430px;
+
     }
 
     .card-o-que-é {
         scale: 80%;
         margin-top: 275px;
         margin-left: -78px;
+
     }
 
     .card-benefícios {
         scale: 80%;
         margin-top: 280px;
         margin-left: 430px;
+
     }
 
     .card-sucesso-microsoft-h2 {
@@ -955,62 +1036,76 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-microsoft-h2 h2 {
         margin-left: -170px;
+
     }
 
     .card-sucesso-microsoft {
         scale: 80%;
         margin-left: -78px;
+
     }
     
     .card-sucesso-dominos-pizza-h2 {
-        margin-top: 280px; 
+        margin-top: 280px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 h2 {
         margin-left: -190px;
+
     }
 
     .card-sucesso-dominos-pizza {
         scale: 80%;
         margin-left: 430px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
         margin-top: 200px;
+
     }
 
     .card-sucesso-blue-wolf-h2 h2 {
         margin-left: -170px;
+
     }
 
     .card-sucesso-blue-wolf {
         scale: 78%;
         margin-left: -78px;
+
     }
 
     .carousel-grupo {
         scale: 80%;
         margin-top: 260px;
         margin-left: 430px;
+
     }
 
     .contatos-p {
         margin-top: 200px;
+
     }
 
     .contatos-p p {
         font-size: 25px;
+
     }
 
     .form-card {
         margin-top: -1155px;
         margin-left: -40px;
+
     }
 
     .button-e-redes {
         scale: 90%;
         margin-top: -250px;
+
     }
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -1023,17 +1118,20 @@ input[type="number"]::-webkit-inner-spin-button {
         margin-top: -344px;
         margin-left: 400px;
         scale: 75%;
+
     }
 
     .card-o-que-é {
         margin-top: 250px;
         scale: 75%;
+
     }
 
     .card-benefícios {
         margin-top: 250px;
         margin-left: 400px;
         scale: 75%;
+
     }
 
     .card-sucesso-microsoft-h2 {
@@ -1043,6 +1141,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-microsoft {
         scale: 75%;
+
     }
 
     .card-sucesso-dominos-pizza-h2 {
@@ -1052,11 +1151,13 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-dominos-pizza-h2 h2 {
         margin-left: -227px;
+
     }
 
     .card-sucesso-dominos-pizza {
         scale: 75%;
         margin-left: 400px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
@@ -1066,20 +1167,21 @@ input[type="number"]::-webkit-inner-spin-button {
     
     .card-sucesso-blue-wolf { 
         scale: 75%;
+
     }
 
     .carousel-grupo {
         scale: 75%;
         margin-top: 240px;
         margin-left: 400px;
+
     }
 
     .button-e-redes {
         margin-left: -265px;
         margin-top: -353px;
+
     }
-
-
 }
 
 @media screen and (max-width: 1366px) {
@@ -1098,12 +1200,14 @@ input[type="number"]::-webkit-inner-spin-button {
     .card-o-que-é {
         margin-top: 233px;
         scale: 75%;
+
     }
 
     .card-benefícios {
         margin-top: 230px;
         margin-left: 358px;
         scale: 75%;
+
     }
 
     .card-sucesso-microsoft-h2 {
@@ -1113,6 +1217,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-microsoft {
         scale: 75%;
+
     }
 
     .card-sucesso-dominos-pizza-h2 {
@@ -1124,11 +1229,13 @@ input[type="number"]::-webkit-inner-spin-button {
     .card-sucesso-dominos-pizza-h2 h2 {
         margin-left: -227px;
         margin-top: -60px;
+
     }
 
     .card-sucesso-dominos-pizza {
         scale: 75%;
         margin-left: 358px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
@@ -1138,51 +1245,61 @@ input[type="number"]::-webkit-inner-spin-button {
     
     .card-sucesso-blue-wolf { 
         scale: 75%;
+
     }
 
     .carousel-grupo {
         scale: 75%;
         margin-top: 220px;
         margin-left: 400px;
+
     }
 
     .button-e-redes {
         margin-left: -265px;
         margin-top: -353px;
+
     }
+
 }
 
 @media screen and (max-width: 1280px) {
     .banner-logo {
         scale: 70%;
         margin-left: -200px;
+
     }
 
     .card-quem-somos {
         scale: 65%;
         margin-top: -450px;
         margin-left: 300px;
+
     }
 
     .card-o-que-é {
         scale: 65%;
         margin-top: 180px;
+
     }
 
     .card-benefícios {
         scale: 65%;
         margin-top: 180px;
         margin-left: 300px;
+
     }
 
     .card-sucesso-microsoft-h2 {
         margin-top: 290px;
         font-size: 25px;
+
     }
 
     .card-sucesso-microsoft {
         scale: 65%;
         margin-top: -205px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 {
@@ -1192,47 +1309,57 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-dominos-pizza-h2 h2 {
         margin-left: -260px;
+
     }
     
     .card-sucesso-dominos-pizza {
         scale: 65%;
         margin-left: 300px;
         margin-top: -80px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
         font-size: 25px;
         margin-top: 205px;
+
     }
 
     .card-sucesso-blue-wolf-h2 h2 {
         margin-left: -160px;
+
     }
 
     .card-sucesso-blue-wolf {
         scale: 65%;
         margin-top: -115px;
+
     }
 
     .carousel-grupo {
         scale: 65%;
         margin-top: 170px;
         margin-left: 300px;
+
     }
 
     .form-card {
         scale: 60%;
         margin-top: -1230px;
+
     }
 
     .button-e-redes {
         margin-top: -520px;
         scale: 80%;
+
     }
 
     .logo-e-informações {
         scale: 70%;
+
     }
+
 }
 
 @media screen and (max-width: 1152px) {
@@ -1240,18 +1367,21 @@ input[type="number"]::-webkit-inner-spin-button {
         margin-top: -566px;
         margin-left: 200px;
         scale: 60%;
+
     }
 
     .card-o-que-é {
         scale: 60%;
         margin-top: 107px;
         margin-left: -135px;
+
     }
 
     .card-benefícios {
         scale: 60%;
         margin-top: 112px;
         margin-left: 200px;
+
     }
 
     .card-sucesso-microsoft-h2 {
@@ -1261,52 +1391,62 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-microsoft-h2 h2 {
         margin-left: -275px;
+
     }
 
     .card-sucesso-microsoft {
         scale: 60%;
         margin-top: -245px;
         margin-left: -135px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 {
         margin-top: 214px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 h2 {
         margin-left: -350px;
+
     }
 
     .card-sucesso-dominos-pizza {
         scale: 60%;
         margin-top: -115px;
         margin-left: 200px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
         margin-top: 145px;
+
     }
 
     .card-sucesso-blue-wolf-h2 h2 {
         margin-left: -260px;
+
     }
     
     .card-sucesso-blue-wolf {
         scale: 60%;
         margin-top: -131px;
         margin-left: -135px;
+
     }
 
     .carousel-grupo {
         scale: 60%;
         margin-top: 100px;
         margin-left: 200px;
+
     }
 
     .form-card {
         scale: 50%;
         margin-top: -1288px;
         margin-left: -135px;
+
     }
 
     .button-e-redes {
@@ -1316,14 +1456,17 @@ input[type="number"]::-webkit-inner-spin-button {
         .container-grid {
             max-width: none;
         }
+
     }
 
     .icones-redes {
         margin-left: 1600px;
+
     }
 
     .logo-e-informações {
         margin-top: -475px;
+
     }
 
 }
@@ -1332,24 +1475,28 @@ input[type="number"]::-webkit-inner-spin-button {
     .banner-logo {
         scale: 60%;
         margin-top: -190px;
+
     }
 
     .card-quem-somos {
         scale: 55%;
         margin-top: -590px;
         margin-left: 155px;
+
     }
 
     .card-o-que-é {
         scale: 55%;
         margin-top: 35px;
         margin-left: -220px;
+
     }
 
     .card-benefícios {
         scale: 55%;
         margin-top: 35px;
         margin-left: 155px;
+
     }
 
     .card-sucesso-microsoft-h2 {
@@ -1359,26 +1506,31 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-microsoft-h2 h2 {
         margin-left: -450px;
+
     }
 
     .card-sucesso-microsoft {
         scale: 55%;
         margin-top: -268px;
         margin-left: -220px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 {
         margin-top: 145px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 h2 {
         margin-left: -410px;
+        
     }
 
     .card-sucesso-dominos-pizza {
         scale: 55%;
         margin-top: -120px;
         margin-left: 155px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
@@ -1388,46 +1540,55 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-blue-wolf-h2 h2 {
         margin-left: -460px;
+
     }
 
     .card-sucesso-blue-wolf {
         scale: 55%;
         margin-top: -145px;
         margin-left: -220px;
+
     }
 
     .carousel-grupo {
         scale: 55%;
         margin-top: 28px;
         margin-left: 155px;
+
     }
 
     .contatos-p {
         margin-top: -70px;
         margin-left: -75px;
         scale: 80%;
+
     }
 
     .form-card {
         margin-top: -1175px;
         margin-left: -184px;
+
     }
 
     .footer-button-text {
         margin-left: 1190px;
         margin-top: 20px;
         width: none;
+
     }
 
     .icones-redes {
         margin-left: 1400px;
+
     }
 
     .logo-e-informações {
         margin-top: -550px;
         margin-left: -246px;
         scale: 55%;
+
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1447,6 +1608,7 @@ input[type="number"]::-webkit-inner-spin-button {
         right: 0px;
 
         margin: unset;
+
     }
 
     header button {
@@ -1459,6 +1621,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
             margin-top: 10px;
             margin-left: 10px;
+
     }
     
         header svg {
@@ -1474,57 +1637,69 @@ input[type="number"]::-webkit-inner-spin-button {
         align-items: flex-start;
 
         width: 200px;
+
     }
 
     .menu a {
         font-size: 25px;
+
     }
+
     .banner-logo {
         scale: 45%;
         margin-top: 0px;
         margin-left: -300px;
+
     }
 
     .banner-logo img {
         margin-top: -20px;
+
     }
 
     .card-quem-somos {
         scale: 60%;
         margin-top: -700px;
         margin-left: -155px;
+
     }
 
     .card-o-que-é {
         scale: 60%;
         margin-top: -122px;
         margin-left: -155px;
+
     }
 
     .card-benefícios {
         scale: 60%;
         margin-top: -82px;
         margin-left: -155px;
+
     }
 
     .card-sucesso-microsoft-h2 {
         margin-top: 10px;
         width: 500px;
+
     }
 
     .card-sucesso-microsoft-h2 h2 {
         margin-left: 265px;
+
     }
 
     .card-sucesso-microsoft {
         margin-top: -235px;
         scale: 60%;
         margin-left: -155px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 {
         margin-top: -15px;
         width: 500px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 h2 {
@@ -1537,10 +1712,12 @@ input[type="number"]::-webkit-inner-spin-button {
         scale: 60%;
         margin-top: -120px;
         margin-left: -155px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
         margin-top: -105px;
+
     }
 
     .card-sucesso-blue-wolf-h2 h2 {
@@ -1552,45 +1729,53 @@ input[type="number"]::-webkit-inner-spin-button {
         scale: 60%;
         margin-top: -130px;
         margin-left: -155px;
+
     }
 
     .carousel-grupo {
         scale: 60%;
         margin-left: -155px;
         margin-top: -100px;
+
     }
 
     .contatos-p {
         margin-left: 30px;
         margin-top: -218px;
+
     }
 
     .contatos-p p {
         width: 700px;
+
     }
 
     .form-card {
         margin-top: -1232px;
         margin-left: -122px;
         scale: 45%;
+
     }
 
     .footer-button-text {
         margin-top: 167px;
         margin-left: 790px;
         scale: 70%;
+        
     }
 
     .icones-redes {
         scale: 60%;
         margin-top: 92px;
         margin-left: 1108px;
+
     }
 
     .logo-e-informações {
         scale: 45%;
         margin-top: -750px;
         margin-left: -270px;
+
     }
 
 }
@@ -1601,52 +1786,63 @@ input[type="number"]::-webkit-inner-spin-button {
         margin-top: -77px;
         margin-left: 10px;
         right: -35px;
+
     }
+
     .banner-logo {
         scale: 25%;
+
     }
 
     .banner-logo img {
         margin-top: -190px;
         margin-left: 75px;
+
     }
 
     .card-quem-somos {
         scale: 35%;
         margin-top: -820px;
         margin-left: -330px;
+
     }
     
     .card-o-que-é {
         scale: 35%;
         margin-top: -310px;
         margin-left: -330px;
+
     }
 
     .card-benefícios {
         scale: 35%;
         margin-top: -320px;
         margin-left: -330px;
+
     }
 
     .card-sucesso-microsoft-h2 {
         margin-top: -100px;
         width: 300px;
+
     }
 
     .card-sucesso-microsoft-h2 h2 {
         margin-left: 115px;
         scale: 50%;
+
     }
     
     .card-sucesso-microsoft {
         scale: 35%;
         margin-top: -305px;
         margin-left: -330px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 {
         margin-top: -180px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 h2 {
@@ -1659,16 +1855,19 @@ input[type="number"]::-webkit-inner-spin-button {
         scale: 35%;
         margin-top: -205px;
         margin-left: -330px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
         margin-top: -200px;
         width: 200px;
+
     }
 
     .card-sucesso-blue-wolf-h2 h2 {
         scale: 50%;
         margin-left: -660px;
+
     }
 
     .card-sucesso-blue-wolf {
@@ -1682,6 +1881,7 @@ input[type="number"]::-webkit-inner-spin-button {
         scale: 35%;
         margin-top: -300px;
         margin-left: -330px;
+
     }
 
     .contatos-p {
@@ -1689,12 +1889,14 @@ input[type="number"]::-webkit-inner-spin-button {
         margin-top: -453px;
         margin-left: -50px;
         width: 300px;
+
     }
 
     .form-card {
         scale: 32%;
         margin-top: -1172px;
         margin-left: -303px;
+
     }
 
     .button-e-redes {
@@ -1706,50 +1908,60 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .button-e-redes a {
         margin: 10px;
+
     }
 
     .footer-button-text {
         margin-bottom: -200px;
+
     }
 
     .logo-e-informações {
         scale: 30%;
         margin-top: -642px;
         margin-left: -205px;
+
     }
 
     .logo-footer {
         scale: 60%;
+
     }
 
     .informações-footer {
         scale: 80%;
         margin-top: -100px;
+
     }
+
 }
 
 @media screen and (max-width: 375px) {
     .banner-logo img {
         margin-top: -226px;
         margin-left: 244px;
+
     }
 
     .card-quem-somos {
         scale: 32%;
         margin-top: -830px;
         margin-left: -355px;
+
     }
 
     .card-o-que-é {
         scale: 32%;
         margin-top: -337px;
         margin-left: -355px;
+
     }
 
     .card-benefícios {
         scale: 32%;
         margin-top: -340px;
         margin-left: -355px;
+
     }
 
     .card-sucesso-microsoft-h2 {
@@ -1759,16 +1971,19 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-microsoft-h2 h2 {
         margin-left: 60px;
+
     }
 
     .card-sucesso-microsoft {
         scale: 32%;
         margin-top: -318px;
         margin-left: -355px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 {
         margin-top: -190px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 h2 {
@@ -1780,6 +1995,7 @@ input[type="number"]::-webkit-inner-spin-button {
         scale: 32%;
         margin-top: -215px;
         margin-left: -355px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
@@ -1797,30 +2013,33 @@ input[type="number"]::-webkit-inner-spin-button {
         scale: 32%;
         margin-top: -240px;
         margin-left: -355px;
+
     }
 
     .carousel-grupo {
         scale: 32%;
         margin-top: -340px;
         margin-left: -355px;
+
     }
 
     .contatos-p {
         margin-top: -475px;
+
     }
 
     .form-card {
         margin-left: -323px;
         margin-top: -1210px;
         scale: 25%;
+
     }
 
     .button-e-redes {
         margin-top: -800px;
         margin-left: -262px;
+
     }
-
-
 
 }
 
@@ -1829,6 +2048,7 @@ input[type="number"]::-webkit-inner-spin-button {
         scale: 80%;
         margin-top: -264px;
         margin-left: 102px;
+
     }
 
     .card-quem-somos {
@@ -1842,12 +2062,14 @@ input[type="number"]::-webkit-inner-spin-button {
         scale: 28%;
         margin-top: -370px;
         margin-left: -384px;
+
     }
 
     .card-benefícios {
         scale: 28%;
         margin-top: -375px;
         margin-left: -384px;
+
     }
 
     .card-sucesso-microsoft-h2 {
@@ -1857,16 +2079,19 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-sucesso-microsoft-h2 h2 {
         margin-left: 12px;
+
     }
 
     .card-sucesso-microsoft {
         scale: 28%;
         margin-top: -332px;
         margin-left: -384px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 {
         margin-top: -210px;
+
     }
 
     .card-sucesso-dominos-pizza-h2 h2 {
@@ -1878,56 +2103,167 @@ input[type="number"]::-webkit-inner-spin-button {
         scale: 28%;
         margin-top: -230px;
         margin-left: -384px;
+
     }
 
     .card-sucesso-blue-wolf-h2 {
         margin-top: -223px;
+
     }
 
     .card-sucesso-blue-wolf-h2 h2 {
         margin-left: 80px;
+
     }
 
     .card-sucesso-blue-wolf {
         scale: 28%;
         margin-top: -250px;
         margin-left: -384px;
+
     }
 
     .carousel-grupo {
         scale: 28%;
         margin-top: -390px;
         margin-left: -384px;
+
     }
 
     .contatos-p {
         scale: 45%;
         margin-top: -515px;
         margin-left: -70px;
+
     }
 
     .form-card {
         scale: 22%;
         margin-top: -1205px;
         margin-left: -340px;
+
     }
 
     .button-e-redes {
         margin-top: -838px;
         margin-left: -280px;
+
     }
 
     .icones-redes {
         scale: 50%;
         margin-left: 1000px;
+
     }
 
     .logo-e-informações {
-
         margin-left: -190px;
 
     }
      
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+@media screen and (max-width: 1024px) {
+
+    .card-sucesso-microsoft-h2 {
+        width: 500px;
+        margin-left: 280px;
+    }
+
+    .card-sucesso-blue-wolf-h2 {
+        width: 500px;
+        margin-left: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .card-sucesso-blue-wolf-h2 {
+        width: 400px;
+        margin-left: 350px;
+    }
+
+    .contatos-p {
+        width: 500px;
+    }
+
+    .card-sucesso-dominos-pizza-h2 {
+        width: 0px;
+    }
+
+    .card-sucesso-microsoft-h2 {
+        width: 300px;
+    }
+
+    .card-sucesso-microsoft p {
+        width: 1037px;
+    }
+
+    body {
+        background-size: 100%;
+    }
+
+    .card-sucesso-microsoft-h2 h2 {
+        margin-left: -100px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 425px) {
+
+    .card-sucesso-microsoft-h2 {
+        width: 0px;
+    }
+
+    .card-sucesso-blue-wolf-h2 {
+        width: 10px;
+
+    }
+
+    .card-sucesso-blue-wolf-h2 h2 {
+        margin-left: -280px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .card-sucesso-microsoft-h2 h2 {
+        margin-left: -200px;
+    }
+
+    .card-sucesso-blue-wolf-h2 h2 {
+        margin-left: -320px;
+    }
+
+    .contatos-p {
+        margin-left: -107px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .card-sucesso-microsoft-h2 h2 {
+        margin-left: -230px;
+    }
+    .card-sucesso-dominos-pizza-h2 h2 {
+        width: 289px;
+        margin-left: -950px;
+    }
+    .card-sucesso-blue-wolf-h2 h2 {
+        margin-left: -200px;
+    }
+    .card-sucesso-blue-wolf-h2 {
+        margin-left: 255px;
+    }
+    .contatos-p {
+        margin-left: -130px;
+    }
+    
 }
 /*@media screen and (max-width: 1700px) {
 
