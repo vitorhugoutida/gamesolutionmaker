@@ -57,6 +57,11 @@ header {
 
 }
 
+header button {
+    border: none;
+    background: none;
+}
+
 .container-grid {
     max-width: 1720px;
 
@@ -348,6 +353,14 @@ header {
     margin-left: 923px;
     margin-top: 32px;
 
+    cursor: pointer;
+
+    transition: background-color 500ms;
+
+}
+
+.card-sucesso-microsoft button:hover {
+    background-color: #ad4929;
 }
 
 .card-sucesso-dominos-pizza-h2 {
@@ -410,6 +423,14 @@ header {
     margin-left: 923px;
     margin-top: -13px;
 
+    cursor: pointer;
+
+    transition: background-color 500ms;
+
+}
+
+.card-sucesso-dominos-pizza button:hover {
+    background-color: #ad4929;
 }
 
 .card-sucesso-blue-wolf-h2 {
@@ -472,6 +493,14 @@ header {
     margin-left: 923px;
     margin-top: 7px;
 
+    cursor: pointer;
+
+    transition: background-color 500ms;
+
+}
+
+.card-sucesso-blue-wolf button:hover {
+    background-color: #ad4929;
 }
 
 .grupo-de-cases-card {
@@ -779,7 +808,11 @@ input[type="number"]::-webkit-inner-spin-button {
     body {
         background-size: 100%;
 
-    } 
+    }
+    
+    header button {
+        display: none;
+    }
 
 }
 
@@ -1612,6 +1645,10 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
     header button {
+        display: show;
+    }
+
+    header button {
             scale: 200%;
 
             width: 25px;
@@ -2247,6 +2284,23 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 320px) {
+
+    header button {
+        margin-left: 250px;
+        margin-top: -50px;
+        position: absolute;
+
+    }
+
+    #icone-barras {
+        display: none;
+        
+    }
+
+    #icone-x {
+        margin-top: 10px;
+        position: absolute;
+    }
     .card-sucesso-microsoft-h2 h2 {
         margin-left: -230px;
     }
