@@ -804,6 +804,17 @@ input[type="number"]::-webkit-inner-spin-button {
 
 }
 
+
+.menu-fechado {
+    display: none;
+
+}
+
+#icone-barras {
+    display: none;
+    
+}
+
 @media screen and (max-width: 1920px) {
     body {
         background-size: 100%;
@@ -1625,8 +1636,15 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 768px) {
+/* 
+    nav {
+        background-color: #626262d3;
+    } */
 
     header {
+
+        z-index: 1;
+
         margin-top: -165px;
 
         height: 768px;
@@ -1634,21 +1652,26 @@ input[type="number"]::-webkit-inner-spin-button {
 
         padding: 0px 30px;
 
-        background-color: #ec2626d3;
+        
 
         position: absolute;
         top: 0px;
         right: 0px;
 
         margin: unset;
+        
 
     }
+    
+
 
     header button {
+        z-index: 1;
         display: show;
     }
 
     header button {
+        z-index: 1;
             scale: 200%;
 
             width: 25px;
@@ -1666,13 +1689,13 @@ input[type="number"]::-webkit-inner-spin-button {
             
         }
 
-    .menu {
+    nav.menu {
         display: flex;
-
+display: none;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-
+        background-color: #626262;
         width: 200px;
 
     }
@@ -1819,11 +1842,14 @@ input[type="number"]::-webkit-inner-spin-button {
 
 @media screen and (max-width: 425px) {
     header {
-        scale: 80%;
+        scale: 50%;
         margin-top: -77px;
         margin-left: 10px;
         right: -35px;
 
+    }
+    header button {
+        scale: 20%;
     }
 
     .banner-logo {
@@ -2088,6 +2114,11 @@ input[type="number"]::-webkit-inner-spin-button {
 
     }
 
+    header button {
+        z-index: 1;
+        width: 20px;
+    }
+
     .card-quem-somos {
         scale: 28%;
         margin-top: -845px;
@@ -2294,12 +2325,18 @@ input[type="number"]::-webkit-inner-spin-button {
 
     #icone-barras {
         display: none;
+        margin-top: -287px;
+        margin-left: -335px;
+        position: absolute;
+        scale: 5%;
         
     }
 
     #icone-x {
-        margin-top: 10px;
+        margin-top: -334px;
+        margin-left: -330px;
         position: absolute;
+        scale: 6%;
     }
     .card-sucesso-microsoft-h2 h2 {
         margin-left: -230px;
