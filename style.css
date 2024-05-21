@@ -53,7 +53,7 @@ header {
     padding-left: 150px;
     padding-right: 150px;
 
-    background-color: var(--cor-para-header);
+    /* background-color: var(--cor-para-header); */
 
 }
 
@@ -67,6 +67,10 @@ header button {
 
     margin: 0 auto;
     
+}
+
+nav {
+    background-color: var(--cor-para-header);
 }
 
 .menu {
@@ -805,10 +809,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 
-.menu-fechado {
-    display: none;
 
-}
 
 #icone-barras {
     display: none;
@@ -1636,10 +1637,26 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 768px) {
-/* 
+
+    .menu-fechado {
+        display: none;
+    
+    }
+
     nav {
-        background-color: #626262d3;
-    } */
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    #icone-barras {
+   margin-top: 60px;
+   margin-left: 10px;
+    position: relative;
+    size: 100%;
+    }
+
+    
 
     header {
 
@@ -1665,19 +1682,24 @@ input[type="number"]::-webkit-inner-spin-button {
     
 
 
-    header button {
-        z-index: 1;
-        display: show;
-    }
+    /* header button {
+       
+    } */
 
     header button {
-        z-index: 1;
-            scale: 200%;
+        /* position: relative; */
+        /* top: -250px;
+        left: 100px; */
+         z-index: 2;
+        /* display: unset; */
+        display: flex;
 
-            width: 25px;
-            margin-left: 20px;
+            scale: 20%;
 
-            display: unset;
+            width: 10px;
+
+
+  
 
             margin-top: 10px;
             margin-left: 10px;
@@ -1689,16 +1711,18 @@ input[type="number"]::-webkit-inner-spin-button {
             
         }
 
-    nav.menu {
+         
+
+    .menu {
         display: flex;
-display: none;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: flex-start;
-        background-color: #626262;
+        align-items: center;
         width: 200px;
+     
 
     }
+   
 
     .menu a {
         font-size: 25px;
@@ -2300,6 +2324,27 @@ display: none;
 }
 
 @media screen and (max-width: 375px) {
+
+    nav button {
+        left: 10px;
+        top: 10px;
+    }
+
+    header {
+        scale: 60%;
+        margin-top: -162px;
+        left: 29px;
+        right: -35px;
+    }
+
+    #menu {
+        margin-top: 164px;
+        margin-left: 197px;
+        width: 200px;
+        height: 461px;
+        scale: 115%;
+    }
+
     .card-sucesso-microsoft-h2 h2 {
         margin-left: -200px;
     }
@@ -2315,6 +2360,23 @@ display: none;
 }
 
 @media screen and (max-width: 320px) {
+    header {
+        margin-top: -192px;
+        left: 48px;
+        position: absolute;
+    }
+
+    nav {
+        width: 100px;
+        height: 100px;
+    }
+
+    #menu {
+        margin-top: 110px;
+        margin-left: 120px;
+        width: 200px;
+        height: 461px;
+    }
 
     header button {
         margin-left: 250px;
@@ -2325,18 +2387,18 @@ display: none;
 
     #icone-barras {
         display: none;
-        margin-top: -287px;
-        margin-left: -335px;
+        top: -533px;
+        left: -1483px;
         position: absolute;
-        scale: 5%;
+        scale: 13%;
         
     }
 
     #icone-x {
-        margin-top: -334px;
-        margin-left: -330px;
+        margin-top: -661px;
+        margin-left: -1545px;
         position: absolute;
-        scale: 6%;
+        scale: 15%;
     }
     .card-sucesso-microsoft-h2 h2 {
         margin-left: -230px;
@@ -2519,4 +2581,11 @@ display: none;
         margin-left: 450px;
         scale: 70%;
     }
+}
+
+*/
+
+.menu-fechado {
+    display: none;
+
 }

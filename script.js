@@ -1,5 +1,4 @@
 let menu = document.getElementById("menu")
-// let header = document.getElementById("menu-header")
 let iconeBarras = document.getElementById("icone-barras")
 let iconeX = document.getElementById("icone-x")
 
@@ -20,6 +19,7 @@ function abrirFecharMenu() {
         // esconder icone barras
 
         iconeBarras.style.display = "none"
+        
 
     } else {
 
@@ -35,6 +35,7 @@ function abrirFecharMenu() {
         // Mostrar icone Barras
 
         iconeBarras.style.display = "inline"
+        
     }
 }
 
