@@ -1638,6 +1638,25 @@ input[type="number"]::-webkit-inner-spin-button {
 
 @media screen and (max-width: 768px) {
 
+
+
+    header {
+        margin-top: 10px;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    header button {
+        margin-top: -285px;
+        margin-left: -35px;
+        position: absolute;
+    }
+
+    .menu {
+        width: 200px;
+        height: 500px;
+    }
+
     .menu-fechado {
         display: none;
     
@@ -1672,8 +1691,8 @@ input[type="number"]::-webkit-inner-spin-button {
         
 
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: 100px;
+        right: -120px;
 
         margin: unset;
         
@@ -1698,17 +1717,15 @@ input[type="number"]::-webkit-inner-spin-button {
 
             width: 10px;
 
-
-  
-
-            margin-top: 10px;
-            margin-left: 10px;
-
     }
     
         header svg {
             fill: rgb(0, 0, 0);
             
+        }
+
+        .footer-button-text {
+            background-color: none;
         }
 
          
@@ -1819,7 +1836,7 @@ input[type="number"]::-webkit-inner-spin-button {
     .carousel-grupo {
         scale: 60%;
         margin-left: -155px;
-        margin-top: -100px;
+        margin-top: -180px;
 
     }
 
@@ -1848,16 +1865,28 @@ input[type="number"]::-webkit-inner-spin-button {
         
     }
 
+    .button-e-redes {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .footer-button-text {
+        top: -950px;
+        left: -105px;
+        position: absolute;
+        scale: 77%;
+    }
+
     .icones-redes {
         scale: 60%;
-        margin-top: 92px;
-        margin-left: 1108px;
+        margin-top: 180px;
+        margin-left: 900px;
 
     }
 
     .logo-e-informações {
         scale: 45%;
-        margin-top: -750px;
+        margin-top: -613px;
         margin-left: -270px;
 
     }
@@ -1865,15 +1894,24 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 425px) {
+
+    .menu {
+        width: 200px;
+        height: 500px;
+    }
     header {
-        scale: 50%;
-        margin-top: -77px;
-        margin-left: 10px;
-        right: -35px;
+        scale: 70%;
+        margin-top: -150px;
+        margin-left: 8px;
+        right: -137px;
+        position: absolute;
 
     }
     header button {
         scale: 20%;
+        margin-top: -278px;
+        margin-left: -30px;
+        position: absolute;
     }
 
     .banner-logo {
@@ -1966,15 +2004,15 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .carousel-grupo {
         scale: 35%;
-        margin-top: -300px;
+        margin-top: -340px;
         margin-left: -330px;
 
     }
 
     .contatos-p {
         scale: 50%;
-        margin-top: -453px;
-        margin-left: -50px;
+        margin-top: -464px;
+        margin-left: -95px;
         width: 300px;
 
     }
@@ -1987,7 +2025,7 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
     .button-e-redes {
-        margin-top: -780px;
+        margin-top: -715px;
         margin-left: -234px;
         scale: 39%;
 
@@ -1998,14 +2036,21 @@ input[type="number"]::-webkit-inner-spin-button {
 
     }
 
+    .icones-redes {
+        margin-top: 485px;
+        margin-left: 1055px;
+    }
+
     .footer-button-text {
         margin-bottom: -200px;
+        margin-top: 500px;
+        left: 80px;
 
     }
 
     .logo-e-informações {
-        scale: 30%;
-        margin-top: -642px;
+        scale: 34%;
+        margin-top: -511px;
         margin-left: -205px;
 
     }
@@ -2024,6 +2069,10 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 375px) {
+
+    #menu {
+        margin-left: 198px;
+    }
     .banner-logo img {
         margin-top: -226px;
         margin-left: 244px;
@@ -2138,10 +2187,10 @@ input[type="number"]::-webkit-inner-spin-button {
 
     }
 
-    header button {
+    /* header button {
         z-index: 1;
         width: 20px;
-    }
+    } */
 
     .card-quem-somos {
         scale: 28%;
@@ -2325,9 +2374,10 @@ input[type="number"]::-webkit-inner-spin-button {
 
 @media screen and (max-width: 375px) {
 
-    nav button {
-        left: 10px;
-        top: 10px;
+    header button {
+        margin-left: 185px;
+        margin-top: -165px;
+        position: absolute;
     }
 
     header {
@@ -2339,7 +2389,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
     #menu {
         margin-top: 164px;
-        margin-left: 197px;
+        margin-left: 198px;
         width: 200px;
         height: 461px;
         scale: 115%;
@@ -2372,15 +2422,15 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
     #menu {
-        margin-top: 110px;
-        margin-left: 120px;
+        margin-top: 205px;
+        margin-left: 75px;
         width: 200px;
         height: 461px;
     }
 
     header button {
-        margin-left: 250px;
-        margin-top: -50px;
+        margin-left: 220px;
+        margin-top: -15px;
         position: absolute;
 
     }
