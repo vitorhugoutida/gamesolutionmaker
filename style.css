@@ -75,11 +75,13 @@ nav {
 
 .menu {
     height: 100px;
-
-
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
 
 }
 
@@ -826,6 +828,19 @@ input[type="number"]::-webkit-inner-spin-button {
         display: none;
     }
 
+    header {
+        width: 1920px;
+    }
+
+    .card-quem-somos {
+        top: 100px;
+        position: relative;
+    }
+
+    .card-o-que-é {
+        margin-top: 670px;
+    }
+
 }
 
 @media screen and (max-width: 1740px) {
@@ -1055,14 +1070,14 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-quem-somos {
         scale: 80%;
-        margin-top: -310px;
+        margin-top: -412px;
         margin-left: 430px;
 
     }
 
     .card-o-que-é {
         scale: 80%;
-        margin-top: 275px;
+        margin-top: 375px;
         margin-left: -78px;
 
     }
@@ -1519,20 +1534,28 @@ input[type="number"]::-webkit-inner-spin-button {
 @media screen and (max-width: 1024px) {
     .banner-logo {
         scale: 60%;
-        margin-top: -190px;
+        margin-top: 100px;
 
+    }
+
+    .banner-logo img {
+        left: -46px;
+        top: 75px;
+        position: absolute;
     }
 
     .card-quem-somos {
         scale: 55%;
-        margin-top: -590px;
+        margin-top: -480px;
         margin-left: 155px;
+        position: relative;
+        top: 629px;
 
     }
 
     .card-o-que-é {
         scale: 55%;
-        margin-top: 35px;
+        margin-top: 665px;
         margin-left: -220px;
 
     }
@@ -1760,14 +1783,15 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-quem-somos {
         scale: 60%;
-        margin-top: -700px;
+        margin-top: -580px;
         margin-left: -155px;
+        top: 400px;
 
     }
 
     .card-o-que-é {
         scale: 60%;
-        margin-top: -122px;
+        margin-top: 288px;
         margin-left: -155px;
 
     }
@@ -1916,6 +1940,9 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .banner-logo {
         scale: 25%;
+        top: 100px;
+        position: relative;
+
 
     }
 
@@ -1923,18 +1950,20 @@ input[type="number"]::-webkit-inner-spin-button {
         margin-top: -190px;
         margin-left: 75px;
 
+
     }
 
     .card-quem-somos {
         scale: 35%;
-        margin-top: -820px;
+        margin-top: -580px;
         margin-left: -330px;
+        top: 100px;
 
     }
     
     .card-o-que-é {
         scale: 35%;
-        margin-top: -310px;
+        margin-top: -222px;
         margin-left: -330px;
 
     }
@@ -2070,6 +2099,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 @media screen and (max-width: 375px) {
 
+
     #menu {
         margin-left: 198px;
     }
@@ -2081,14 +2111,15 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-quem-somos {
         scale: 32%;
-        margin-top: -830px;
+        margin-top: -580px;
         margin-left: -355px;
+        top: 50px;
 
     }
 
     .card-o-que-é {
         scale: 32%;
-        margin-top: -337px;
+        margin-top: -290px;
         margin-left: -355px;
 
     }
@@ -2194,8 +2225,9 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .card-quem-somos {
         scale: 28%;
-        margin-top: -845px;
+        margin-top: -580px;
         margin-left: -384px;
+        top: 0px;
     
     }
 
@@ -2299,6 +2331,9 @@ input[type="number"]::-webkit-inner-spin-button {
 
     .logo-e-informações {
         margin-left: -190px;
+    position: relative;
+    scale: 28%;
+    top: 15px;
 
     }
      
@@ -2382,7 +2417,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
     header {
         scale: 60%;
-        margin-top: -162px;
+        margin-top: -260px;
         left: 29px;
         right: -35px;
     }
@@ -2406,12 +2441,15 @@ input[type="number"]::-webkit-inner-spin-button {
     .contatos-p {
         margin-left: -107px;
     }
+    .logo-e-informações {
+        margin-top: -497px;
+    }
     
 }
 
 @media screen and (max-width: 320px) {
     header {
-        margin-top: -192px;
+        margin-top: -290px;
         left: 48px;
         position: absolute;
     }
